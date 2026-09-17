@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+<body>
+    <form action="MYGIT/table.html" method="post">
+        <div>
+        <Label for="email">Email Address</Label><br />
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        </div>
+        <br>
+
+        <div>
+        <label for="full_name">Full Name:</label><br />
+        <input type="text" id="full_name" name="full_name" required placeholder="Enter your full name">
+        </div>
+
+        <div>
+        <p>Gender:</p>
+        <label>
+            <input type="radio" name="gender" value="male" />Male 
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female" />Female 
+        </label>
+        <br>
+        <br>
+
+        <div>
+        <label for="home_address">Home Address:</label><br />
+        <textarea id="home_address" name="home_address" rows="4" cols="40" required placeholder="Enter your home address"></textarea>
+        </div>
+        <br>
+
+        <div>
+        <label for="country">Country:</label><br />  
+        <select name="country"  id="country" required>
+            <option value="">Select country/option>
+            <option value="NG">Nigeria</option>
+            <option value="USA">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="CA">Canada</option>
+            <option value="FRA">France</option>
+            <option value="GER">Germany</option>
+            <option value="IT">Italy</option>
+            <option value="IN">India</option>
+        </select>
+        </div>
+        <br>
+
+        <div>
+            <p>I want to get a feedback via: </p>
+            <label>
+                <input type="checkbox" name="feedback_phone" value="yes" />Phone call
+            </label>
+            <labeL>
+                <input type="checkbox" name="feedback_fax" value="yes" />Fax
+            </labeL>
+        </div>
+        <br>
+
+        <div>
+         <p>Do you want us to call you</p>
+         <label>
+            <input type="radio" name="call_me" value="yes" /> yes
+         </label>
+         <label>
+            <input type="radio" name="call_me" value="no" /> No
+         </label>
+        </div>
+        <br>
+
+        <div>  
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      
+    </form>
+</body>
+</html>
